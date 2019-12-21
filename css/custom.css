@@ -1,0 +1,132 @@
+/* HEIGHT 100%*/
+html, body{ height: 100%; font-family: 'Questrial', sans-serif;}
+.bloco{min-height: 110%; padding-top: 100px;}
+
+
+/*COLORS*/
+
+.blue-logo{background-color: #bc3ffd;}
+
+
+
+/*LOGO*/
+.logo_text{margin: 0; font-size: 0;}
+.logo_img{width: 80px; margin-top: 10px;}
+
+
+/*HOME ANIMATION*/
+@keyframes mudarBg{
+    40% { background-image: url(../img/bale2.jpg);}
+    80% { background-image: url(../img/music.jpg);}
+    100% { background-image: url(../img/bg4.jpg);}
+}
+
+/*MEDIA*/
+
+@media only screen and (min-width: 601px) {
+    .banner{padding-top: 4.5rem;}
+    .banner h2{font-size: 4rem;}
+    .container{width: 85%;}
+  }
+  
+  @media only screen and (min-width: 993px) {
+    .banner{padding-top:  5rem;}
+    .banner h2{font-size: 4rem;}
+    .container{width: 90%;}
+
+  }
+ 
+@media only screen and (max-width: 480px) {
+  .card-image.card-image-horizontal{display: none;}
+  .card-image-horizontal{display: none;}
+}
+/*MENU*/
+.navbar{background-color: transparent; transition: background 0.5s linear;}
+.navbar ul a:hover{background-color: transparent; color: #bc3ffd;}
+.nav-color{background-color: rgba(0, 0, 0, 0.7); transition: background 0.5s linear;  }
+
+/* HOME*/
+.home{animation: mudarBg 20s infinite; background-image: url(../img/bg4.jpg); background-repeat: no-repeat; background-size: cover; }
+.banner h2{font-size: 2.5rem; font-weight: 900; text-transform: uppercase;}
+.banner p {font-size: 1.2rem; line-height: 1.8rem;}
+
+/* TITULO E PARAGRAFO*/
+.titulo{font-size: 2rem; text-transform: uppercase;}
+.titulo::after{content: ''; display: block; width: 100px; border-top: 1px solid #bc3ffd; margin: 15px auto;}
+.paragrafo{line-height: 1.8rem;}
+
+
+/*SOBRE*/
+.sobre{background-image: url(../img/textura3.png);}
+.sobre .missao-visao-valores{padding: 20px 0; margin: 10px; border-radius: 40px;}
+.sobre .missao-visao-valores .icon{color: #fff}
+.sobre .missao-visao-valores h3{font-size: 1.8rem;color: #fff; text-transform: uppercase;}
+.sobre .missao-visao-valores p{color: #fff;text-align: center;}
+
+/*AULAS*/
+.aulas {background-image: url(../img/textura2.png);}
+.aulas .btn-horario{padding-bottom: 20px; }
+
+/*GALERIA*/
+.galeria{background-image: url(../img/circle.png);}
+
+
+/*UNIDADES*/
+.unidade{background-image: url(../img/bg-unidades.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+.card-stacked span{margin-left: 33px;}
+
+
+/*CONTATO*/
+.contato{background-image: url('../img/textura1.png')}
+.contato h4{font-size: 1.2rem; text-transform: uppercase; font-weight: 900; }
+.contato .mapa{min-height: 620px;}
+.contato .mapa iframe{width: 100%; min-height: 620px;}
+.contato .informacoes{background-image: url(../img/textura2.png); min-height: 620px; padding: 30px;}
+.contato .formulario {padding: 30px; min-height: 620px;}
+
+/*DEPOIMENTOS*/
+.depoimento .titulo::after{border-color:#fff; }
+.depoimento img{width: 100px;}
+.depoimento h4{font-size: 1.2rem; font-weight: 900;}
+
+/*RODAPE*/
+.rodape{background-image: url(../img/bg-rodape.jpg);  background-repeat: no-repeat; background-size: cover; padding: 30px 0;  }
+
+
+
+/*CUSTOM*/
+nav.nav-extended .nav-wrapper {
+    min-height: 100px;
+  }
+
+.navbar-fixed {
+    position: absolute;
+    height: 100px;
+}
+nav ul a{font-size: 1.3rem;}
+nav, nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons, nav a.button-collapse i {
+  height: 100px;
+  line-height: 100px;
+}
+
+.side-nav{background: url(../img/textura2.png);}
+.side-nav li a{ color: #fff; font-size: 100%;}
+
+.carousel .carousel-item{display: block;}
+.row{margin-bottom: 0;}
+.tabs .tab a{ padding: 0px 55px; color:#fff;}
+.tabs .tab a:hover, .tabs .tab a.active{color: #bc3ffd;}
+.tabs{background-color: #222}
+.tabs .indicator{ background-color: #bc3ffd;}
+td, th{text-align: center;}
+/*CENTRALIZRE BOTAO DO MODAL*/
+/*a.btn.blue-logo.modal-action.modal-close {  margin: 15px 304px 14px 309px;}*/
+i.left{margin-right: -24px;}
+.card .card-content {padding: 17px;}
+.card.horizontal{margin-top: 75px;}
+i.left-btn {
+  float: left;
+  margin-right: 15px;
+}
