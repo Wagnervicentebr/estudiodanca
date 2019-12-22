@@ -83,6 +83,7 @@ html, body{ height: 100%; font-family: 'Questrial', sans-serif;}
 .contato .mapa iframe{width: 100%; min-height: 620px;}
 .contato .informacoes{background-image: url(../img/textura2.png); min-height: 620px; padding: 30px;}
 .contato .formulario {padding: 30px; min-height: 620px;}
+.contato .col-tel { margin-left: 7px; font-size: 15px;}
 
 /*DEPOIMENTOS*/
 .depoimento .titulo::after{border-color:#fff; }
@@ -124,9 +125,14 @@ td, th{text-align: center;}
 /*CENTRALIZRE BOTAO DO MODAL*/
 /*a.btn.blue-logo.modal-action.modal-close {  margin: 15px 304px 14px 309px;}*/
 i.left{margin-right: -24px;}
-.card .card-content {padding: 17px;}
+.card .card-content {padding: 17px; height: 260px; overflow: auto;}
 .card.horizontal{margin-top: 75px;}
 i.left-btn {
   float: left;
   margin-right: 15px;
+}
+
+.card .card-image img{
+  
+  height: 228px;
 }
